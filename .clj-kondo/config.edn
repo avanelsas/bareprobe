@@ -1,0 +1,3 @@
+;; `defsugar` defs the verb it names and calls the core verb of the same name. It is a def in
+;; every way clj-kondo cares about, and its trailing arglists are not forms to lint.
+{:lint-as {bareprobe.live/defsugar clj-kondo.lint-as/def-catch-all}}

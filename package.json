@@ -1,0 +1,16 @@
+{
+  "name": "@vanelsas/bareprobe",
+  "version": "0.1.0",
+  "description": "A REPL surface over BareBuild's recorded log: fold any past state, read what each step moved, and apply events you invent without touching the running app.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Alexander van Elsas",
+  "scripts": {
+    "test": "npx shadow-cljs compile test && node out/node-tests.cjs"
+  },
+  "exports": {},
+  "devDependencies": {
+    "shadow-cljs": "^3.4.11"
+  }
+}

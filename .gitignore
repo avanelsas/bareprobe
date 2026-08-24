@@ -1,0 +1,18 @@
+/out
+/target
+/pom.xml
+/.shadow-cljs
+/.cpcache
+/.clj-kondo/.cache
+/node_modules
+
+# Working documents, kept beside the project but deliberately untracked. The contents are
+# excluded rather than the directory, because git cannot re-include a file under an excluded
+# directory and docs/VERBS.md ships.
+/docs/*
+!/docs/VERBS.md
+/CLAUDE.md
+
+# Emacs autosave and lock files.
+\#*\#
+.\#*
