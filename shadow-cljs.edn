@@ -1,9 +1,9 @@
 ;; Versions are declared here and again in deps.edn. Keep the two in step. Why each pin is exact
 ;; is in README.md, under Status.
 {:source-paths ["src" "test"]
- :dependencies [[com.github.avanelsas/baredom    "3.8.0"]
-                [com.github.avanelsas/barebuild  "0.7.0"]
-                [com.github.avanelsas/barereplay "0.4.0"]]
+ :dependencies [[com.github.avanelsas/baredom    "4.5.0"]
+                [com.github.avanelsas/barebuild  "0.8.0"]
+                [com.github.avanelsas/barereplay "0.5.0"]]
 
  :builds
  {;; .cjs, not .js: package.json declares "type": "module", which would make Node read the
