@@ -1,9 +1,9 @@
 ;; Versions are declared here and again in shadow-cljs.edn. Keep the two in step. Why each pin is
 ;; exact is in README.md, under Status.
 {:paths ["src"]
- :deps  {com.github.avanelsas/baredom    {:mvn/version "3.8.0"}
-         com.github.avanelsas/barebuild  {:mvn/version "0.7.0"}
-         com.github.avanelsas/barereplay {:mvn/version "0.4.0"}}
+ :deps  {com.github.avanelsas/baredom    {:mvn/version "4.5.0"}
+         com.github.avanelsas/barebuild  {:mvn/version "0.8.0"}
+         com.github.avanelsas/barereplay {:mvn/version "0.5.0"}}
 
  :aliases
  {:build  {:deps       {io.github.clojure/tools.build {:mvn/version "0.10.5"}}
@@ -11,5 +11,5 @@
   :deploy {:deps       {slipset/deps-deploy {:mvn/version "0.2.1"}}
            :mvn/repos  {"clojars" {:url "https://repo.clojars.org/"}}
            :exec-fn    deps-deploy.deps-deploy/deploy
-           :exec-args  {:artifact  "target/bareprobe-0.1.0.jar"
+           :exec-args  {:artifact  "target/bareprobe-0.2.0.jar"
                         :installer :remote}}}}
