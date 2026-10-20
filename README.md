@@ -53,10 +53,10 @@ BareProbe is a development-time tool. Add it beside your app's own dependencies.
 
 ```clojure
 ;; deps.edn
-com.github.avanelsas/bareprobe {:mvn/version "0.2.0"}
+com.github.avanelsas/bareprobe {:mvn/version "0.3.0"}
 
 ;; shadow-cljs.edn
-[com.github.avanelsas/bareprobe "0.2.0"]
+[com.github.avanelsas/bareprobe "0.3.0"]
 ```
 
 **BareProbe reads the log BareReplay records**, so the recorder has to be in place before the first
@@ -101,7 +101,7 @@ needs no running app.
 
 ## Status
 
-0.2.0 on Clojars.
+0.3.0 on Clojars.
 
 **The version pins are exact requirements rather than floors.** BareProbe reads parts of BareBuild
 that BareBuild does not promise to keep, and an unknown event no-ops rather than throwing. A

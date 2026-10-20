@@ -1,6 +1,6 @@
 {
   "name": "@vanelsas/bareprobe",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A REPL surface over BareBuild's recorded log: fold any past state, read what each step moved, and apply events you invent without touching the running app.",
   "private": true,
   "type": "module",
