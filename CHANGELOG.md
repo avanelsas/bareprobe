@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+Depends on BareDOM 4.11.0, BareBuild 0.9.0 and BareReplay 0.6.0, rather than 4.5.0, 0.8.0 and 0.5.0.
+Nothing BareProbe reads changed between those versions, so every verb answers as before. An app
+that takes BareDOM through BareProbe moves to 4.11 with it.
+
 ## 0.2.0
 
 Depends on BareDOM 4.5.0, BareBuild 0.8.0 and BareReplay 0.5.0, rather than 3.8.0, 0.7.0 and 0.4.0.
